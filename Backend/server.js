@@ -23,5 +23,5 @@ app.use(require("./routes/router.js"));
 // listening
 const port=80||8000
 app.listen(port, () => {
-  console.log(`server running at port ${port}`);
+  console.log(`server is running at port ${port}`);
 });
